@@ -1,345 +1,119 @@
-<!DOCTYPE html>
-<html lang="en">
-
+<!doctype html>
+<html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Les caractérisations de Catherine de Médicis lors du Grand Tour de France, d’après les livrets d’entrée et les témoignages de l’époque</title>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Les caractérisations de Catherine de Médicis lors du Grand Tour de France, d’après les livrets d’entrée et les témoignages de l’époque</title>
+<style>
+:root{
+  --architecte-bg:#FbAa8b; /* marron */
+  --vertus-bg:#f3a3c6;     /* rose */
+  --conseil-bg:#d0d0d0;    /* gris */
+  --pacificatrice-bg:#7fe5f0; /* cyan */
+  --restauratrice-bg:#ffe680; /* jaune */
+  --mere-bg:#98e6a8;       /* vert */
+}
+body{font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; line-height:1.35; padding:24px; max-width:1200px; margin:0 auto;}
+h1{font-size:1.25rem; margin:0 0 12px;}
+.legend{margin:12px 0 18px; display:flex; flex-wrap:wrap; gap:10px; align-items:center;}
+.legend .item{display:inline-flex; gap:6px; align-items:center; font-size:0.95rem;}
+.legend .swatch{padding:2px 8px; border-radius:6px;}
+.extrait{margin-bottom:1em}
+table{border-collapse:collapse; width:100%;}
+th,td{border:1px solid #bbb; vertical-align:top; padding:10px; font-size:0.95rem;}
+th{background:#f6f6f6; font-weight:700;}
+/* Highlight classes */
+span.architecte{background:var(--architecte-bg); padding:0 2px; border-radius:4px;}
+span.vertus{background:var(--vertus-bg); padding:0 2px; border-radius:4px;}
+span.conseil{background:var(--conseil-bg); padding:0 2px; border-radius:4px;}
+span.pacificatrice{background:var(--pacificatrice-bg); padding:0 2px; border-radius:4px;}
+span.restauratrice{background:var(--restauratrice-bg); padding:0 2px; border-radius:4px;}
+span.mere{background:var(--mere-bg); padding:0 2px; border-radius:4px;}
+/* Footnotes hover aside */
+aside{width:200px !important;}
+.fn-ref{position:relative; font-size:0.8em; vertical-align:super; cursor:help; margin-left:1px;}
+.fn-text{display:none; position:absolute; left:0; top:1.2em; z-index:10; width:min(520px, 80vw); background:white; border:1px solid #999; border-radius:10px; padding:10px 12px; box-shadow:0 8px 30px rgba(0,0,0,.15);}
+.fn-ref:hover .fn-text, .fn-ref:focus .fn-text{display:block;}
+.fn-num{font-weight:700; margin-bottom:6px;}
+.fn-body{font-size:0.95em;}
+</style>
 </head>
-
 <body>
-    <h1>Les caractérisations de Catherine de Médicis lors du Grand Tour de France, d’après les livrets d’entrée et les témoignages de l’époque</h1>
-<aside>
-<h2>Légende : </h2>
-<span class="caption archi">Architecte</span> - 
-<span class="caption vertus">Vertus</span> - 
-<span class="caption conseil">Conseil</span> - 
-<span class="caption paix">Pacificatrice</span> - 
-<span class="caption agedor">Restauratrice de l’âge d’or</span> - 
-<span class="caption mere">Mère</span>
-</aside>
-    <table>
-        <tr>
-            <th>Fontainebleau<br>31 janvier - 13 mars 1564</th>
-            <th>Sens<br>15 - 17 mars 1564</th>
-            <th>Troyes<br>23 mars - 16 avril 1564
-            </th>
-            <th>Lyon<br>11 - 29 juin 1564</th>
-            <th>Valence<br>22 août - 2 septembre 1564</th>
-            <th>Toulouse<br>31 janvier - 4 mars 1565</th>
-            <th>Bordeaux<br>9 avril - 3 mai 1565</th>
-            <th>Bayonne<br>29 mai - 12 juin 1565</th>
-        </tr>
-        <tr>
-
-        </tr>
-        <td>
-            <p>Le Reyne mere du Roy, qui n’en voulut pas estre exempte, fit aussi de très-rares et excellens festins,
-        accompagnez d’une parfaite musique, par des syrenes fort bien representées ès canaux du jardin, avec plusieurs
-        autres gentilles et agreables inventions pour l’amour et pour les armes</p>
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
+<!--
+Codes HTML et CSS de la page générés en utilisant ChatGPT 5.2 Thinking le 04/02/2026 : https://chatgpt.com/share/6992af21-6f60-8004-a026-66b23efd59c2 
+Corrections et amélioration par Philippe Gambette du code obtenu
+-->
+<h1>Les caractérisations de Catherine de Médicis lors du Grand Tour de France, d’après les livrets d’entrée et les témoignages de l’époque</h1>
+<div class="legend"><div class="item"><strong>Légende :</strong></div><div class="item"><span class="swatch architecte">Architecte</span></div><div class="item"><span class="swatch vertus">Vertus</span></div><div class="item"><span class="swatch conseil">Conseil</span></div><div class="item"><span class="swatch pacificatrice">Pacificatrice</span></div><div class="item"><span class="swatch restauratrice">Restauratrice de l’âge d’or</span></div><div class="item"><span class="swatch mere">Mère</span></div></div>
+<table>
+<thead><tr>
+<th>Fontainebleau<br>31 jan-13 mars 1564</th>
+<th>Sens<br>15-17 mars 1564</th>
+<th>Troyes<br>23 mars-16 avr 1564</th>
+<th>Lyon<br>11-29 juin 1564</th>
+<th>Valence<br>22 août-2 sept 1564</th>
+<th>Toulouse<br>31 jan-4 mars 1565</th>
+<th>Bordeaux<br>9 avr-3 mai 1565</th>
+<th>Bayonne<br>29 mai-12 juin 1565</th>
+</tr></thead>
+<tbody><tr>
+<td>
+<div class="extrait" id="extrait1">- <em><span class="architecte">Le Reyne mere du Roy, qui n’en voulut pas estre exempte, fit aussi de très-rares et excellens festins</span>, accompagnez d’une parfaite musique, par des syrenes fort bien representées ès canaux du jardin, avec plusieurs autres gentilles et agreables inventions pour l’amour et pour les armes</em><sup class="fn-ref" tabindex="0">1<aside class="fn-text" role="note"><div class="fn-num">1</div><div class="fn-body">Michel de Castelnau, Mémoires pour servir à l&#x27;histoire de France : depuis le XIIIe siècle jusqu&#x27;à la fin du XVIIIe, Joseph Fr. Michaud (éd.), Paris, Éditeur du Commentaure analytique du Code civil, 1838, p. 499.</div></aside></sup></div>
+<div class="extrait" id="extrait2">- <em>Alors les Dieux d’un tel fait deplaisans</em> (la mort d’Henri II) <em>Voyons la <span class="mere">Royne &amp; ses filz en bas ans, de tous costez tourmentez de la guerre</span>, pour ne souiller leurs yeux en regardant le sang versé desoubz le fer ardant, par grand despit se cacherent soubz terre…</em></div>
+<div class="extrait" id="extrait3"><em><span class="vertus">Ainsi te nourrissant parmy </span></em><br><em><span class="vertus">Les vertus de ta Mere sage</span></em><br><em>Tu auras le Ciel pour amy</em><br><em>Et la Terre pour heritage</em><br><em>Et toy Mere resiouy toy</em><br><em>Mere sur toutes <span class="vertus">vertueuse</span></em><br><em>Qui as nourry se ieune Roy </em><br><em>Dune <span class="vertus">prudence</span> si soigneuse</em>.</div>
+<div class="extrait" id="extrait4">La seconde [illustration] estoit une <span class="vertus">Grue</span> qui volle contre le vent ayant la pierre en un pied pour luy servir de contrepoix contre la force du vent et ces petitz appuyez sur elle avec ce mot (<em><span class="vertus">Caute tutela larentis</span></em>) <em>qui est une devise de la Royne signifiant la <span class="vertus">vigilance et le soin quelle a des affaires du Royaulme pour le Roy son filz</span>.</em><sup class="fn-ref" tabindex="0">2<aside class="fn-text" role="note"><div class="fn-num">2</div><div class="fn-body">Le Recueil des Triomphes et magnificences qui ont estez faictes au logis de Monseigneur le Duc Dorleans frere du Roy, estant a Fontainebleau au Festin quil feit le Lundi gras dernierement XIIII jour de Febvrier, Troyes, F. Trumeau, 1564, non pag. Les vers font partie des Mascarades de Ronsard.Dans la lignée d’Horapollon (Hieroglyphica, II, 94) et de Pythagore (Carmen aureum), et ensuite repris par Alciat (emblème 17), la Grue est un symbole de la prudence.</div></aside></sup></div>
+<div class="extrait" id="extrait5">- <span class="pacificatrice"><em>Si nous voyons entre fleurs et boutons</em><br><em>Paistre moutons,</em><br><em>Et nos chevreaux pendre sus une roche,</em><br><em>Sans que le loup sur le soir approche</em><br><em>De sa dent-croche :</em><br><em>Si liz florir et roses nous sentons,</em><br><em>Voyans mourir toute herbe serpentine :</em><br><em>Si nous voyons les Nymphes à minuit</em><br><em>En leur simple vasquine</em><br><em>Mener un bruit</em><br><em>Dansant aux bords d’une source argentine :</em><br><em>Si nous voyons le siecle d’or refait,</em><br><em>C’est du bienfait</em><br><em>De la Bergere Catherine</em></span><sup class="fn-ref" tabindex="0">3<aside class="fn-text" role="note"><div class="fn-num">3</div><div class="fn-body">P. de Ronsard, « Bergerie », Œuvres complètes, J. Céard, D. Ménager et M. Simonin (éd.), Paris, Gallimard, coll. « Bibliothèque de la Pléiade », 1994, p. 144-145, v. 35-48</div></aside></sup></div>
 </td>
-        <td>
-            <p></p>
-        </td>
-        <td>
-            <p></p>
-            <p></p>
-            <p></p>
-            <p></p>
-            <p></p>
-        </td>
-        <td>
-            <p></p>
-            <p></p>
-            <p></p>
-            <p></p>
-        </td>
-        <td>
-            <p></p>
-            <p></p>
-            <p></p>
-            <p></p>
-            <p></p>
-            <p></p>
-            <p></p>
-        </td>
-        <td>
-            <p></p>
-            <p></p>
-            <p></p>
-            <p></p>
-            <p></p>
-            <p></p>
-        </td>
-        <td>
-            <p></p>
-            <p></p>
-            <p></p>
-            <p></p>
-        </td>
-
-
-
-
-
-
-
-        
-
-        - Alors les Dieux d’un tel fait deplaisans (la mort d’Henri II) Voyons la Royne & ses filz en bas ans, de tous
-        costez tourmentez de la guerre, pour ne souiller leurs yeux en regardant le sang versé desoubz le fer ardant,
-        par grand despit se cacherent soubz terre…
-
-
-        Ainsi te nourrissant parmy
-        Les vertus de ta Mere sage
-        Tu auras le Ciel pour amy
-        Et la Terre pour heritage
-
-        Et toy Mere resiouy toy
-        Mere sur toutes vertueuse
-        Qui as nourry se ieune Roy
-        Dune prudence si soigneuse.
-
-
-        La seconde [illustration] estoit une Grue qui volle contre le vent ayant la pierre en un pied pour luy servir de
-        contrepoix contre la force du vent et ces petitz appuyez sur elle avec ce mot (Caute tutela larentis) qui est
-        une devise de la Royne signifiant la vigilance et le soin quelle a des affaires du Royaulme pour le Roy son
-        filz.
-
-        - Si nous voyons entre fleurs et boutons
-        Paistre moutons,
-        Et nos chevreaux pendre sus une roche,
-        Sans que le loup sur le soir approche
-        De sa dent-croche :
-        Si liz florir et roses nous sentons,
-        Voyans mourir toute herbe serpentine :
-        Si nous voyons les Nymphes à minuit
-        En leur simple vasquine
-        Mener un bruit
-        Dansant aux bords d’une source argentine :
-        Si nous voyons le siecle d’or refait,
-        C’est du bienfait
-        De la Bergere Catherine
-        - Ce n’est point à tort, Madame, que le clergé vous obéit, que le peuple fléchit sous vostre authorité et que
-        tous les ordres du royaulme vous servent et vous admirent. […] Vostre foy, vostre humanité envers tous, vostre
-        tempérance et modération en adversité, vostre prudence incrédible, accompagnées de vos aultres immémorables
-        vertus y étoient requises et y trouvent bon lieu.
-
-
-        Les hystoires étrangères célèbrent la sagesse de Mammée, […], les nostres, celles de Blanche, mère du Roy Louis
-        IX. […] Celuy [le royaume] de France, en ces derniers jours trop calamiteux et déplorez, luy-mesme malingre, a
-        esté, par vostre seule prudence, entièrement retenu, le feu éteint, la flamme suffoquée, les séditions
-        populaires cohibées, les émotions apaisées, la république de France bien composée et restituée à sa première
-        concorde et tranquillité.
-
-        - Et ieune d’ans, auec ſa Mere a faict
-        Que l’aage d’Or en France s’eſt refaict.
-
-        Portail de Saint Louis. À ses côtés, statue de la Prudence et vers :
-        Icy tu vois la Iustice & prudence,
-        Dont ſainct Loys honora ſon enfance :
-        Qui des Francois fut couronné le Roy,
-        Ayant atteint aage pareil à toy.
-        Or tout ainſi qu’il ſuyuit de ſa Mere
-        Le bon conſeil, au temps de ſa miſere,
-        Suy le conſeil de la tienne, & enſuy
-        La Sapience & Iustice de luy
-
-        Hos olim populos primis Lodoicus in annis,
-        Matris conſilio Iustéque Piéque regebat :
-        Cum tibi nunc eadem, Rex Carole, floreat ætas,
-        Contigeritque ſimul prudentia ſumma parentis
-        Iustitia populos, populos Pietate gubernes.
-
-
-        - Puisse Charles un iour, l’aïant conquis en guerre, A son frere donner le sceptre d’Angleterre. O dieus ? ô
-        quelle ioïe aura sur ses vieus ans Quand la Mere verra tous deus Rois ses enfans ? Qui ensemble joignans leurs
-        bandes animées pourront de tous les Rois deffaire les armées. Voïes vous ? la voila, disent ils ébaïs, C’est la
-        mere du Roi et mere du païs. Comme reluire on voit en la saison sereine l’astre Dionéan qui le jour nous
-        r’ameine : ou tel qu’on apperçoit le beau chef du Soleil, Quand au mois de Venus sortant de son sommeil la
-        retire lavé hors de l’onde marine, Telle ou plus belle encore est nostre CATHERINE. C’est par son bon conseil
-        que maintenant les Lois commandent es cités de Charles de Valois : c’est elle qui nous tient assurés en nos
-        villes : qui a estaint les feus de nos guerres civiles : qui a chassé d’ici l’Anglois outrecuidé : qui a remis
-        le frein au temple desbridé : Berecynthe en honneur, et Minerve en Prudence : Qui fait que l’âge d’or au monde
-        recommence.
-
-
-        Mais celui-ci [Charles] a conservé sa terre :
-        Et ieune d’ans, avec sa mere, a fait
-        Que l’âge d’or en France s’est refait
-        - Au dssous de la Corniche dudit Dome [Temple des Vertus] furent posées les Armoiries de la Royne mere, & au
-        dessus d’icelle fut veue la Statue d’une femme de relief, façonnées au vif, en bosse ronde, grande comme le
-        naturel, appuyee sur un bras, & ayant une cuisse estuee ( ?) en se recourbant. Aupres d’ele fut posé un Paon,
-        qui est l’Animal consacré à Iuno, & sus icelle fut couché à plat un Hercules qui tetoit sa mammelle dextre. Au
-        dessus en son Hemosphere apparut vousté l’Arc celeste nommé Iris, umbrageant ce delicieux embrassement. »
-
-
-        Portail et Cathédrale de Saint-Jean : armoiries de C.
-        R. Catharinae Regis M.
-        Quod vingeant domito Pax & Concordia bello,
-        Debent consiliis secula nostra tuis
-        (Que la paix et l'harmonie vengent la guerre vaincue,
-        Nos siècles sont redevables de vos conseils)
-
-        Catharinae M. Reginae pacificae.
-        Tu vita Regi partu, tu sceptra dedisti
-        Consilio : populis das pietate fidem
-        (Tu as donné la vie au Roi par sa naissance, tu as donné le sceptre au Conseil : tu donnes la foi au peuple par
-        ta piété)
-
-        Le vaisseau pour la Reine-Mère
-        Si de soy, en soy à qui forme Nature / Au comble de son mieux nom tresgrand est donné, / Charles, Roy, si
-        parfaict, fis de Royne tant pure : / De vertu, Catharine, honneur au Monde, est né./ Au Monde, l’Aage d’Or,
-        Charles a retourné, / Charles l’honneur du Monde, est de la Vertu né. - À la Royne -Sonnet
-        Royne sans per, de graces anoblies,
-        France doit bien voz honeurs accueillir,
-        D’enfans Royaux l’avez sceue embelir,
-        Dont aux efforts guerriers se voit munie.
-        Vous surpassez la Royne Zenobie,
-        Et son renom faictes ensevelir,
-        Dont vostre los onc ne pourra faillir,
-        Bien que soyez lassus au Ciel ravie.
-        Chacun desire en ce regne Gaulois
-        L’accroissement du tige des Valois,
-        Qu’un triple Lis des longs temps auctorise.
-        Vous avez l’heur, Royne, du Ciel haultain,
-        Et vostre nom aux siecles est certain
-        D’avoir louange à vos vertus exquise.
-
-
-        À la porte de la ville :
-        Au cousté gauche, y avoit une dame, tenant un fuseau plain de fil retors en la main gauche et estoit nommée par
-        le compositeur Prudence heroine, et cela en l’honeur de la Royne, comme il appert par ces vers qui estoiet
-        escris au-dessoubz
-
-
-        Après le carré du Roulle, à l’entrée de la grande rue estoit une Minerve qui portoit les deux coullonnes
-        d’Hercules de la main droicte, et un serpent à troys testes devant elle, et avoit les pieds sur les armeures
-        monstrant conculquer Mars avec ses discords. Au dessus d’elle, le Roy Charles estoit assis dans une chaire
-        tenant une main de Iustice pendent en bas, et sa main gauche tenoit sur l’espaule de Minerve, laquelle tendoit
-        son bras gauche sur une compagnie d’hommes, et un rameau en la main rendu sur leurs testes, de quoy les
-        arrosoit, et de l’autre cousté ou elle estoit plus tournée, y avoit une compagnie de femmes qui tournoit le doz
-        comme fuyans, et chassées par son pouvoir.
-        A l’entour du pourtraict, ce dictum estoit escrit en latin :
-
-        Desola cos Deus ; cadant a consiliis suis.
-
-        Sur la huictième devise.
-
-        Sonnet. Renommée.
-
-        Voyez ici la chrestienne Minerve,
-        Qui faict le laict d’un rameau degouter
-        Dessus ceulx la qui bien sçavent gouter
-        Ceste vertu qui les hommes conserve ;
-        D’autre cousté la troupe qui est serue,
-        Pleine de crime, elle veult reiecter,
-        Le serpent triple à ce se vient ietter,
-        Mais le hault Dieu du venin la preserve.
-        De Medicis la Royne Catherine
-        Contre le mal porte la medecine,
-        Et d’Hercules le coullonnes soustient,
-        Car sa grandeur administre iustice
-        Et piété avec toute pollice,
-        Dont sa vertu le Roy son fils maintient.
-        -Arc de la Perche pinte : « Par-dessus ladicte cornice y avoit deux piedestalz, et sur iceulx eslevez deux
-        pilastres, revestuz chacun de trois termes, ausquels pialstres l’Arc du Ciel appellé Iris se joignoit ; et au
-        dessus un Ciel plein de nuées, se fondans en rosée ou pluye, qu’estoit la devise ancienne de la Reyne. Soubz
-        ledict arc celeste,et sur ung marchepied ou soubassement estoit eslevée l’estatue de la Royne, tenant à une main
-        le sceptre. […]
-        D. Catherinae G. R. optimi et potentissimi Henrici,
-        R. fidissimae conjugi Regum et Principum
-        Foecundissimae procreatrici T. C. P.
-
-        Deux Papes, oncles de la Reine (Leon X et Clément VII) + laurier évoquant son père Laurent II de Médicis
-        Ita et virtus (la Vertu aussi est comme ça)
-
-        Un peuple lui présente un cœur avec devise […] comme le Romains le faisait à la Déesse.
-        France dépeinte aux pieds de la Reine, dont elle reçoit une ancre avec devise (tenir bon) « pour denoter que par
-        s prudence la France demeure en son estre ».
-        Minerve dépeinte « ordissant une toile de fleurs de lys » avec devise (le palais entier)
-
-        - Mais en ses oraiges, tumultes et idieuses confusions le Dieu de Paix nous a preservé deux grandz reliefz pour
-        adoucir ces miseres publicques – vostre sacrée Magesté et la Reyne vostre mere, nostre treshonnorée Dame par le
-        conseil de laquelle vostre peuple a esté delivré de ung si horrible et prodigieux laberinthe de malleur où
-        toutes violances, impietez et prophanation des choses saincres estoient exercées. La mer de ce Royaulme
-        fluctuante rendue calme et tranquille. (Deux vaisseaux, un pour la Reine)
-
-        - Trad du latin : “Qui a exilé sa capitale parmi les villes d'Aquitaine autant qu'elle s'élève parmi toutes les
-        villes populeuses de Paris. Tendez la main, Roi, tendez le pied, que le peuple puisse couvrir de mille baisers.
-        Vous non plus, ô pieuse Mère Royale, n'êtes-vous pas indifférente à nous, progéniture de Jupiter, à qui la
-        fortune des Médicis a accordé de voir trois pontifes de votre race, et qui naquirent fiers Rois des Francs, dons
-        précieux des dieux.”
-
-        Trad: LAT.
-        Charles, joie du peuple, protection, plaisir : Charles, génie de la cité, père de la patrie, prince excellent :
-        toi qui as fermé les portes de fer des deux voiles de laine et de nuages, tu as levé les obstacles de ton
-        royaume, guidé par ta déesse mère. Par des voies ardues jusqu'aux étoiles. Par les peuples, tu accordes des
-        droits, suivant les traces de ton père, Henri, et de ton frère : que tu as tous trouvés, les larmes aux yeux,
-        sauvés d'un destin cruel.
-
-        - Non pas en vanites mondaines,
-        Comme un tas de sieurs terriens :
-        Car desia va par montz, et plaines,
-        Pour mieulx punyr tous ces vault riens.
-        Pource qu’il se renge,
-        Comme un petit Ange,
-        A la volonté
-        De sa mere, et Dame,
-        Instruysant son ame
-        En toute bonté.
-
-        Defaict il en à raison grande :
-        Car oultre la maternité,
-        Fault bien que l’honneur il luy rende
-        D’avoir son regne en unité
-        Remys en ces troubles,
-        Tant espais, et doubles,
-        Qu’il en fust iamais :
-        Que faict, qu’on l’estime
-        Du monde la Prime
-        Par tout desormais.
-
-
-        Mesmes oyant le soing, et cure
-        Qu’elle a heu de bien le pourvoir
-        De conseil, qui son bien procure,
-        Comme à tous est aysé a veoir.
-        Et de faire apprendre
-        Et docile rendre
-        Ses freres, et sœurs
-        A vertu, Prudence,
-        Pour la providence
-        D’eulx tous, et les leurs. (Catherine va à la rencontre d’Élisabeth, sa fille, reine d’Espagne. Rencontre émue
-        entre Catherine et sa fille, qui offre à sa mère une haquenée blanche.)
-
-        - Ains que marchiez tousiours avecques le harnois,
-        Iusqu’au temps qu’on verra la mere de deux Rois
-        Approcher l’Ocean du costé de la Nive,
-        Pour voir l’un de ces cueurs le plus parfait qui vive.
-        C’est un Cueur transformé en une Royalle telle,
-        Que qui la void, la tient pour Deesse immortelle.
-        Elle fut faite Cueur alors qu’à sa naissance,
-        Ainsi qu’on la nommoit Elisabet de France,
-        Vint un Herault du Ciel, qui par vouloir des Dieux, Fit tant qu’on al nomma Elisabet des Cieux.
-
-
-        Et estimant qu’elles pouvoyent estre lasses de toutes ces grandeurs & magnificences, qui leur sont ordinaires,
-        elle voulut entremesler quelque chose de son invention, pour leur donner plaisir.
-
-
-        - À Bayonne […] là où ie m’asseure que vous n’oublierez de representer le festin superbe de la Roine ma mere en
-        l’Isle, avec le ballet, & la forme de la sale qu’il sembloit que la nature eust appropriée à cet effet ; ayant
-        cerné dans le milieu de l’Isle un grand pré en ovale de vois de haute fustaye, où la Roine ma mere disposa tout
-        à l’entour de grandes niches, & dans chacune une table ronde à douze personnes.
-
-    </table>
+<td>
+<div class="extrait" id="extrait6">- Ce n’est point à tort, Madame, que le clergé vous obéit, que le peuple fléchit sous vostre authorité et que tous les ordres du royaulme vous servent et vous admirent. […] <span class="vertus">Vostre foy, vostre humanité envers tous, vostre tempérance et modération en adversité, vostre prudence incrédible, accompagnées de vos aultres immémorables vertus y étoient requises et y trouvent bon lieu.</span></div>
+<div class="extrait" id="extrait7">Les hystoires étrangères célèbrent la sagesse de Mammée, […], les nostres, celles de Blanche, mère du Roy Louis IX. […] <span class="pacificatrice">Celuy</span> [le royaume] <span class="pacificatrice">de France, en ces derniers jours trop calamiteux et déplorez, luy-mesme malingre, a esté, par vostre seule prudence, entièrement retenu, le feu éteint, la flamme suffoquée, les séditions populaires cohibées, les émotions apaisées, la république de France bien composée et restituée à sa première concorde et tranquillité.</span><sup class="fn-ref" tabindex="0">4<aside class="fn-text" role="note"><div class="fn-num">4</div><div class="fn-body">Entrée du Roy Charles IX et de la Reyne-mere Catherine de Medicis en la ville de Sens le 15 mars 1563. Relation inédite extraite du manuscrit d’Éracle Cartault chanoine du diocese, et des deliberations et actes de l’Hôtel de Ville de Sens, Auxerre, Imprimerie de Georges Rouille, 1882. (Transcription de cette relation dans P.-L. Vaillancourt, Les entrées solennelles pendant le règne de Charles IX, New York N.Y. ; Ottawa Ont. ; Toronto Ont. : Legas, p. 77-78).</div></aside></sup></div>
+</td>
+<td>
+<div class="extrait" id="extrait8">- <em>Et ieune d’ans, auec ſa Mere a faict</em><br><em><strong><span class="restauratrice">Que l’aage d’Or en France s’eſt refaict</span></strong></em><strong>.</strong></div>
+<div class="extrait" id="extrait9">Portail de Saint Louis. À ses côtés, statue de la Prudence et vers :<br><em>Icy tu vois la Iustice &amp; prudence,</em><br><em>Dont ſainct Loys honora ſon enfance :</em><br><em>Qui des Francois fut couronné le Roy,</em><br><em>Ayant atteint aage pareil à toy.</em><br><em>Or tout ainſi qu’il ſuyuit de ſa Mere</em><br><em>Le bon conſeil, au temps de ſa miſere,</em><br><em><strong><span class="conseil">Suy le conſeil de la tienne, &amp; enſuy</span></strong></em><br><em><strong><span class="conseil">La Sapience &amp; Iustice de luy</span></strong></em></div>
+<div class="extrait" id="extrait10"><em>Hos olim populos primis Lodoicus in annis,</em><br><em>Matris conſilio Iustéque Piéque regebat :</em><br><em>Cum tibi nunc eadem, Rex Carole, floreat ætas,</em><br><em>Contigeritque ſimul prudentia ſumma parentis</em><br><em>Iustitia populos, populos Pietate gubernes</em>.<sup class="fn-ref" tabindex="0">5<aside class="fn-text" role="note"><div class="fn-num">5</div><div class="fn-body">Les Triomphes, grans bravetez et magnificences, faictes pour l’Entree de treshault et Treschrestien Prince Charles neufiesme de ce nom Roy de France en sa ville de Troye, Lyon, Par Pierre Merant, 1564, p. 8 et suiv.</div></aside></sup></div>
+<div class="extrait" id="extrait11"><em>- Puisse Charles un iour, l’aïant conquis en guerre, A son frere donner le sceptre d’Angleterre. O dieus ? ô quelle ioïe aura sur ses vieus ans Quand la Mere verra tous deus Rois ses enfans ? Qui ensemble joignans leurs bandes animées pourront de tous les Rois deffaire les armées. Voïes vous ? la voila, disent ils ébaïs, <strong><span class="mere">C’est la mere du Roi et mere du païs</span></strong>. Comme reluire on voit en la saison sereine l’astre  Dionéan qui le jour nous r’ameine : ou tel qu’on apperçoit le beau chef du Soleil, Quand au mois de Venus sortant de son sommeil la retire lavé hors de l’onde marine, Telle ou plus belle encore est nostre CATHERINE. C’est par <strong><span class="conseil">son bon conseil</span></strong> que maintenant les Lois commandent es cités de Charles de Valois : <strong><span class="pacificatrice">c’est elle qui nous tient assurés en nos villes : qui a estaint les feus de nos guerres civiles : qui a chassé d’ici l’Anglois outrecuidé : qui a remis le frein au temple desbridé</span></strong> : <strong><span class="vertus">Berecynthe en honneur, et Minerve en Prudence</span></strong> : <strong><span class="restauratrice">Qui fait que l’âge d’or au monde recommence.</span></strong></em></div>
+<div class="extrait" id="extrait12"><em>Mais celui-ci</em> [Charles] <em>a conservé sa terre :</em><br><em>Et ieune d’ans, <strong><span class="restauratrice">avec sa mere, a fait</span></strong></em><br><em><strong><span class="restauratrice">Que l’âge d’or en France s’est refait</span></strong> </em><sup class="fn-ref" tabindex="0">6<aside class="fn-text" role="note"><div class="fn-num">6</div><div class="fn-body">J. Passerat, Chant d&#x27;allégresse pour l&#x27;entrée de treschrestien, treshault, trespuissant... prince Charles IX. de ce nom, roi de France, en sa ville de Troie, Paris, chez Gabriel Buon, 1564, f. Aiijv-Biijv.</div></aside></sup></div>
+</td>
+<td>
+<div class="extrait" id="extrait13">- <em>Au dssous de la Corniche dudit Dome</em> [Temple des Vertus]<em> furent posées les <strong>Armoiries de la </strong><strong>Royne</strong><strong> </strong><strong>mere</strong>, &amp; au dessus d’icelle fut veue la Statue d’une femme de relief, façonnées au vif, en bosse ronde, grande comme le naturel, appuyee sur un bras, &amp; ayant une cuisse estuee ( ?) en se recourbant. Aupres d’ele fut posé un <strong>Paon</strong>, qui est l’Animal consacré à <strong>Iuno</strong>, &amp; sus icelle fut couché à plat un Hercules qui tetoit sa mammelle dextre. Au dessus en son Hemosphere apparut vousté <strong>l’Arc </strong><strong>celeste</strong><strong> nommé Iris</strong>, umbrageant ce delicieux embrassement</em>. »</div>
+<div class="extrait" id="extrait14">Portail et Cathédrale de Saint-Jean : armoiries de C. <br>R. <strong>Catharinae</strong> Regis M.<br><em>Quod vingeant domito Pax &amp; Concordia bello, </em><br><em><strong><span class="conseil">Debent consiliis secula nostra tuis</span></strong></em> <br>(<em>Que la paix et l&#x27;harmonie vengent la guerre vaincue,</em><br><em>Nos siècles sont redevables de vos conseils</em>)</div>
+<div class="extrait" id="extrait15"><em>Catharinae M. Reginae pacificae.</em><br><em>Tu vita Regi partu, tu sceptra dedisti</em><br><em>Consilio : populis das pietate fidem</em><br>(<em>Tu as donné <span class="mere">la <strong>vie au Roi</strong></span> par sa naissance, tu as donné le <span class="conseil"><strong>sceptre au Conseil</strong></span> : tu donnes la <strong><span class="conseil">foi au peuple</strong></span> par ta piété</em>)</div>
+<div class="extrait" id="extrait16">Le vaisseau pour la Reine-Mère <br><em>Si de soy, en soy à qui forme Nature / Au comble de son mieux nom tresgrand est donné, / Charles, Roy, si parfaict, fis de <strong><span class="vertus">Royne tant pure</span></strong> : / <span class="vertus">De </span><strong><span class="vertus">vertu, Catharine, honneur au Monde, est né</span></strong><span class="vertus">./</span> <strong><span class="restauratrice">Au Monde, l’Aage d’Or, Charles a retourné,</span></strong><strong> / Charles l’honneur du Monde, </strong><strong><span class="vertus">est de la Vertu né</span></strong><strong>.</strong></em><sup class="fn-ref" tabindex="0">7<aside class="fn-text" role="note"><div class="fn-num">7</div><div class="fn-body">Discours de l&#x27;entree de tresillustre, trespuissant, treschrestien, et tresvictorieux Prince Charles de Valois neuvième de ce nom Roy de France en sa tres renommée et fameuse ville de Lyon…, Paris, M. Breuille, 1564, f. 33 et suiv.</div></aside></sup></div>
+</td>
+<td>
+<div class="extrait" id="extrait17">- À la Royne -Sonnet<br><em>Royne sans per, de graces anoblies,</em><br><em>France doit bien voz honeurs accueillir, </em><br><em><strong><span class="mere">D’enfans Royaux l’avez sceue embelir</span></strong>, </em><br><em>Dont aux efforts guerriers se voit munie.</em><br><em><strong><span class="vertus">Vous surpassez la Royne Zenobie</span></strong>, </em><br><em>Et son renom faictes ensevelir, </em><br><em>Dont vostre los onc ne pourra faillir,</em><br><em>Bien que soyez lassus au Ciel ravie.</em><br><em>Chacun desire en ce regne Gaulois </em><br><em>L’accroissement du tige des Valois, </em><br><em>Qu’un triple Lis des longs temps auctorise.</em><br><em>Vous avez l’heur, Royne, du Ciel haultain, </em><br><em>Et vostre nom aux siecles est certain</em><br><em><span class="vertus">D’avoir louange à <strong>vos vertus</strong> exquise</span>.</em></div>
+<div class="extrait" id="extrait18">À la porte de la ville :<br>Au cousté gauche, y avoit une <strong><span class="vertus">dame, tenant un fuseau plain de fil retors en la main gauche et estoit nommée par le compositeur Prudence heroine, et cela en l’honeur de la Royne</span></strong>, comme il appert par ces vers qui estoiet escris au-dessoubz </div>
+<div class="extrait" id="extrait19">Après le carré du Roulle, à l’entrée de la grande rue estoit une <strong>Minerve</strong> qui portoit les deux coullonnes d’Hercules de la main droicte, et un serpent à troys testes devant elle, et avoit les pieds sur les armeures monstrant conculquer Mars avec ses discords. Au dessus d’elle, le Roy Charles estoit assis dans une chaire tenant une main de Iustice pendent en bas, et sa main gauche tenoit sur l’espaule de Minerve, laquelle tendoit son bras gauche sur une compagnie d’hommes, et un rameau en la main rendu sur leurs testes, de quoy les arrosoit, et de l’autre cousté ou elle estoit plus tournée, y avoit une compagnie de femmes qui tournoit le doz comme fuyans, et chassées par son pouvoir. <br>A l’entour du pourtraict, ce dictum estoit escrit en latin :<br>Desola cos Deus ; cadant a consiliis suis.<br>Sur la huictième devise.<br>Sonnet. Renommée.<br>Voyez ici la chrestienne Minerve,<br>Qui faict le laict d’un rameau degouter<br>Dessus ceulx la qui bien sçavent gouter <br><span class="vertus">Ceste vertu qui les hommes conserve</span> ;<br>D’autre cousté la troupe qui est serue, <br>Pleine de crime, elle veult reiecter,<br>Le serpent triple à ce se vient ietter,<br>Mais le hault Dieu du venin la preserve.<br>De Medicis la Royne Catherine<br>Contre le mal porte la medecine,<br>Et d’Hercules le coullonnes soustient,<br>Car sa grandeur administre iustice <br>Et piété avec toute pollice,<br><span class="vertus">Dont sa vertu le Roy son fils maintient</span>.<sup class="fn-ref" tabindex="0">8<aside class="fn-text" role="note"><div class="fn-num">8</div><div class="fn-body">Description des devises qui estoient en la ville de Valence à l’entrée du très chrestien roy Charles IX rédigées par escript en l’honneur de Sa Majesté par Jehan de La Maison Neufve du Berri, Avignon, Pierre Roux, 1564, s. p. (Transcription de cette relation dans V. E. Graham, W. McAllister Johnson, The Royal Tour of France by Charles IX and Catherine de&#x27; Medici: Festivals and Entries, 1564-56, Toronto, University of Toronto Press, 1979, Appendix VII, p. 213-221.)</div></aside></sup></div>
+</td>
+<td>
+<div class="extrait" id="extrait20"><em>-Arc de la Perche pinte : « Par-dessus ladicte cornice y avoit deux piedestalz, et sur iceulx eslevez deux pilastres, revestuz chacun de trois termes, ausquels pialstres l’<strong>Arc du Ciel </strong>appellé <strong>Iris</strong> se joignoit ; et au dessus un Ciel plein de nuées, se fondans en rosée ou pluye, qu’estoit la devise ancienne de la Reyne. Soubz ledict arc celeste,et sur ung marchepied ou soubassement estoit eslevée l’estatue de la Royne, tenant à une main le sceptre. </em>[…]<br><em>D. Catherinae G. R. optimi et potentissimi Henrici, </em><br><em>R. fidissimae conjugi <strong><span class="mere">Regum et Principum</span></strong></em><br><em><strong><span class="mere">Foecundissimae procreatrici</span></strong> T. C. P. </em></div>
+<div class="extrait" id="extrait21"><em>Deux Papes, oncles de la Reine (Leon X et Clément VII) + laurier évoquant son père Laurent II de Médicis</em><br><em>Ita et virtus (la Vertu aussi est comme ça)</em></div>
+<div class="extrait" id="extrait22"><em>Un peuple lui présente un cœur avec devise </em>[…]<em> comme le Romains le faisait à la Déesse.</em><br><em>France dépeinte aux pieds de la Reine, dont elle reçoit une ancre avec devise (tenir bon) « pour denoter que par s prudence la France demeure en son estre ». </em><br><em>Minerve dépeinte « ordissant une toile de fleurs de lys » avec devise (le palais entier)</em></div>
+<div class="extrait" id="extrait23"><em>- Mais en ses oraiges, tumultes et idieuses confusions le Dieu de Paix nous a preservé deux grandz reliefz pour adoucir ces miseres publicques – vostre sacrée Magesté et <strong><span class="conseil">la Reyne vostre mere, nostre treshonnorée Dame par le conseil de laquelle</span></strong> <strong><span class="pacificatrice">vostre peuple a esté delivré de ung si horrible et prodigieux laberinthe de malleur où toutes violances, impietez et prophanation des choses saincres estoient exercées</span></strong>. La mer de ce Royaulme fluctuante rendue <span class="pacificatrice">calme et tranquille</span>.</em><sup class="fn-ref" tabindex="0">9<aside class="fn-text" role="note"><div class="fn-num">9</div><div class="fn-body">Brief discours de la magnificence et entree du treschrestien Roy de France Charles IX. Faicte en sa ville de Tholose le deuxiesme jour de Fevrier. M. D. LXV, A Paris, par Guillaume de Nyverd, imprimeur Avec privilege, 1565, f. 361-368. (Transcription de cette relation dans V. E. Graham, W. McAllister Johnson, The Royal Tour of France by Charles IX and Catherine de&#x27; Medici: Festivals and Entries, 1564-56, Toronto, University of Toronto Press, 1979, Appendix XI, p. 272-277.</div></aside></sup></div>
+</td>
+<td>
+<div class="extrait" id="extrait24">(Deux vaisseaux, un pour la Reine)<sup class="fn-ref" tabindex="0">10<aside class="fn-text" role="note"><div class="fn-num">10</div><div class="fn-body">L&#x27;entrée du Roy à Bordeaux, avecques les carmes latins qui luy ont esté presentez, &amp; au Chancelier, A Paris, de l&#x27;imprimerie de Thomas Richard, à la Bible d&#x27;or, devant le college de Reims. 1565, p. 3 et suiv.</div></aside></sup></div>
+<div class="extrait" id="extrait25">- Trad du latin : “<em>Qui a exilé sa capitale parmi les villes d&#x27;Aquitaine autant qu&#x27;elle s&#x27;élève parmi toutes les villes populeuses de Paris. Tendez la main, Roi, tendez le pied, que le peuple puisse couvrir de mille baisers. <span class="mere">Vous non plus, ô pieuse Mère Royale, n&#x27;êtes-vous pas indifférente à nous, progéniture de Jupiter, à qui la fortune des Médicis a accordé de voir trois pontifes de votre race, et qui naquirent fiers Rois des Francs, dons précieux des dieux.</span></em>”</div>
+<div class="extrait" id="extrait26">Trad: LAT.<br>Charles, joie du peuple, protection, plaisir : Charles, génie de la cité, père de la patrie, prince excellent : toi qui as fermé les portes de fer des deux voiles de laine et de nuages, tu as levé les obstacles de ton royaume, <strong><span class="conseil">guidé par ta déesse mère.</span></strong><strong> Par des voies ardues jusqu&#x27;aux étoiles.</strong> Par les peuples, tu accordes des droits, suivant les traces de ton père, Henri, et de ton frère : que tu as tous trouvés, les larmes aux yeux, sauvés d&#x27;un destin cruel.<sup class="fn-ref" tabindex="0">11<aside class="fn-text" role="note"><div class="fn-num">11</div><div class="fn-body">M. Martius, Prosphonematicon, sive de Adventu... Caroli IX in suam urbem Burdigalam. Mauricii Marcii..., Paris, ex typographia T. Richardi, 1565, f. Aiijv-Bv.</div></aside></sup></div>
+<div class="extrait" id="extrait27">- <em>Non pas en vanites mondaines,</em><br><em>Comme un tas de sieurs terriens :</em><br><em>Car desia va par montz, et plaines,</em><br><em>Pour mieulx punyr tous ces vault riens.</em><br><em><strong><span class="conseil">Pource qu’il se renge,</span></strong></em><br><em><strong><span class="conseil">Comme un petit Ange,</span></strong></em><br><em><strong><span class="conseil">A la volonté</span></strong></em><br><em><strong><span class="conseil">De sa mere, et Dame,</span></strong></em><br><em><strong><span class="conseil">Instruysant son ame </span></strong></em><br><em><strong><span class="conseil">En toute bonté.</span></strong></em><br><em>Defaict il en à raison grande : </em><br><em>Car <strong><span class="mere">oultre la maternité,</span></strong></em><br><em><strong><span class="pacificatrice">Fault bien que l’honneur il luy rende<br>D’avoir son regne en unité<br>Remys en ces troubles</span></strong>,</em><br><em>Tant espais, et doubles,</em><br><em>Qu’il en fust iamais :</em><br><em>Que faict, qu’on l’estime</em><br><em>Du monde la Prime</em><br><em>Par tout desormais.</em><br><em>Mesmes oyant le soing, et cure</em><br><em>Qu’elle a heu de bien <strong><span class="conseil">le pourvoir</span></strong></em><br><em><strong><span class="conseil">De conseil, qui son bien procure</span></strong>, </em><br><em>Comme à tous est aysé a veoir.</em><br><em>Et <strong>de faire apprendre</strong></em><br><em><strong>Et docile rendre </strong></em><br><em><strong>Ses </strong><strong>freres</strong><strong>, et sœurs</strong></em><br><em><strong><span class="vertus">A vertu, Prudence</span></strong><strong>, </strong></em><br><em><strong>Pour la providence</strong></em><br><em><strong>D’</strong><strong>eulx</strong><strong> tous, et les leurs.</strong></em><sup class="fn-ref" tabindex="0">12<aside class="fn-text" role="note"><div class="fn-num">12</div><div class="fn-body">M. Thomas, Cantique au Roy Charles IX nostre souverain seigneur, pour sa nouvelle entrée, et bien venue en sa noble ville, capitale de Guyenne et cité de Bourdeaulx : composé par M. Martin Thomas, advocat au parlement d&#x27;icelle et à sa majesté, Bordeaux, Veuve Morpain, 1565, f. Biijv-Biiij.</div></aside></sup></div>
+</td>
+<td>
+<div class="extrait" id="extrait28">(Catherine va à la rencontre d’Élisabeth, sa fille, reine d’Espagne. Rencontre émue entre Catherine et sa fille, qui offre à sa mère une haquenée blanche.)<sup class="fn-ref" tabindex="0">13<aside class="fn-text" role="note"><div class="fn-num">13</div><div class="fn-body">L&#x27;arrivee de la royne d&#x27;Espaigne à S. Jehan de Lus, de son entrée à Bayonne, et du magnifique recueil qui luy a esté fait par leurs Magestez, Lyon, B. Rigaud, 1565, f. 1 et suiv.</div></aside></sup></div>
+<div class="extrait" id="extrait29">- Ains que marchiez tousiours avecques le harnois, <br>Iusqu’au temps qu’on verra <strong><span class="mere">la mere de deux Rois</span></strong><br>Approcher l’Ocean du costé de la Nive, <br>Pour voir l’un de ces cueurs le plus parfait qui vive. <br>C’est un Cueur transformé en une Royalle telle, <br>Que qui la void, la tient pour Deesse immortelle.<br>Elle fut faite Cueur alors qu’à sa naissance,<br>Ainsi qu’on la nommoit Elisabet de France, <br>Vint un Herault du Ciel, qui par vouloir des Dieux, Fit tant qu’on al nomma Elisabet des Cieux.</div>
+<div class="extrait" id="extrait30"><span class="architecte">Et estimant qu’elles pouvoyent estre lasses de toutes ces grandeurs &amp; magnificences, qui leur sont ordinaires, elle voulut entremesler quelque chose de son invention, pour leur donner plaisir.</span> <sup class="fn-ref" tabindex="0">14<aside class="fn-text" role="note"><div class="fn-num">14</div><div class="fn-body">Recueil des choses notables, qui ont esté faites à Bayonne, à l&#x27;entreueuë du Roy Treschrestien Charles neufieme de ce nom, &amp; la Royne sa treshonoree mere, auec la Royne catholique sa sœur, Paris, Vascozan imprimeur du Roy. M. D. LXVI, 1566, f. 8v et suiv.</div></aside></sup></div>
+<div class="extrait" id="extrait31">- À Bayonne […] là où ie m’asseure que vous n’oublierez de representer <strong><span class="architecte">le festin superbe de la Roine ma mere en l’Isle</span></strong>, avec le ballet, &amp; la forme de la sale qu’il sembloit que la nature eust appropriée à cet effet ; ayant cerné dans le milieu de l’Isle un grand pré en ovale de vois de haute fustaye, <span class="architecte"><strong>où la Roine ma mere disposa</strong><span class="architecte"> tout à l’entour de grandes niches, &amp; dans chacune une table ronde à douze personnes</span>.<sup class="fn-ref" tabindex="0">15<aside class="fn-text" role="note"><div class="fn-num">15</div><div class="fn-body">Marguerite de Valois, Les mémoires de la roine Marguerite, Paris, C. Chappellain, 1628, p. 14-15.</div></aside></sup></td>
+</tr></tbody></table>
 </body>
-
+<script>
+document.querySelectorAll("td").forEach(td=>{
+   td.addEventListener("mouseenter",event=>{
+       document.querySelectorAll("td").forEach(td2=>{td2.style.width=window.innerWidth/20+"px"})
+       td.style.width=window.innerWidth/2+"px"
+   })
+   td.addEventListener("mouseleave",event=>{
+       document.querySelectorAll("td").forEach(td2=>{td2.style.width=""})
+   })
+})
+</script>
 </html>
