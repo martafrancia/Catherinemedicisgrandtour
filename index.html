@@ -20,7 +20,7 @@ h1{font-size:1.25rem; margin:0 0 12px;}
 .legend .swatch{padding:2px 8px; border-radius:6px;}
 .extrait{margin-bottom:1em}
 table{border-collapse:collapse; width:100%;}
-th,td{border:1px solid #bbb; vertical-align:top; padding:10px; font-size:0.95rem;}
+th,td{border:1px solid #bbb; vertical-align:top; padding:5px; font-size:0.95rem;}
 th{background:#f6f6f6; font-weight:700;}
 /* Highlight classes */
 span.architecte{background:var(--architecte-bg); padding:0 2px; border-radius:4px;}
@@ -79,7 +79,7 @@ Corrections et amélioration par Philippe Gambette du code obtenu
 <div class="extrait" id="extrait13">- <em>Au dessous de la Corniche dudit Dome</em> [Temple des Vertus]<em> furent posées les <strong>Armoiries de la </strong><strong>Royne</strong><strong> </strong><strong>mere</strong>, &amp; au dessus d’icelle fut veue la Statue d’une femme de relief, faconnee au vif, en bosse ronde, grande comme le naturel, appuyee sur un bras, &amp; ayant une cuisse esleuee en se recourbant. Aupres d’ele fut posé un <strong>Paon</strong>, qui est l’Animal consacré à <strong>Iuno</strong>, &amp; sus icelle fut couché à plat un Hercules qui tetoit sa mammelle dextre. Au dessus en son Hemosphere apparut vousté <strong>l’Arc </strong><strong>celeste</strong><strong> nommé Iris</strong>, umbrageant ce delicieux embrassement</em>.&nbsp;»</div>
 <div class="extrait" id="extrait14">Portail et Cathédrale de Saint-Jean : armoiries de C. <br>R. <strong>Catharinae</strong> Regis M.<br><em>Quod vingeant domito Pax &amp; Concordia bello, </em><br><em><strong><span class="conseil">Debent consiliis secula nostra tuis</span></strong></em> <br>(<em>Que la paix et l&#x27;harmonie vengent la guerre vaincue,</em><br><em>Nos siècles sont redevables de vos conseils</em>)</div>
 <div class="extrait" id="extrait15"><em>Catharinae M. Reginae pacificae.</em><br><em>Tu vita Regi partu, tu sceptra dedisti</em><br><em>Consilio : populis das pietate fidem</em><br>(<em>Tu as donné <span class="mere">la <strong>vie au Roi</strong></span> par sa naissance, tu as donné le <span class="conseil"><strong>sceptre au Conseil</strong></span> : tu donnes la <strong><span class="conseil">foi au peuple</strong></span> par ta piété</em>)</div>
-<div class="extrait" id="extrait16">Le vaisseau pour la Reine-Mère <br><em>Si de soy, en soy à qui forme Nature / Au comble de son mieux nom tresgrand est donné, / Charles, Roy, si parfaict, fis de <strong><span class="vertus">Royne tant pure</span></strong> : / <span class="vertus">De </span><strong><span class="vertus">vertu, Catharine, honneur au Monde, est né</span></strong><span class="vertus">./</span> <strong><span class="restauratrice">Au Monde, l’Aage d’Or, Charles a retourné,</span></strong><strong> / Charles l’honneur du Monde, </strong><strong><span class="vertus">est de la Vertu né</span></strong><strong>.</strong></em><sup class="fn-ref" tabindex="0">7<aside class="fn-text" role="note"><div class="fn-num">7</div><div class="fn-body">Discours de l&#x27;entree de tresillustre, trespuissant, treschrestien, et tresvictorieux Prince Charles de Valois neuvième de ce nom Roy de France en sa tres renommée et fameuse ville de Lyon…, Paris, M. Breuille, 1564, f. 33 et suiv.</div></aside></sup></div>
+<div class="extrait" id="extrait16">Le vaisseau pour la Reine-Mère <br><em>Si de soy, en soy à qui forme Nature<br>Au comble de son mieux nom tresgrand est donné,<br>Charles, Roy, si parfaict, fis de <strong><span class="vertus">Royne tant pure</span></strong> :<br><span class="vertus">De </span><strong><span class="vertus">vertu, Catharine, honneur au Monde, est né</span></strong><span class="vertus">.</span><br><strong><span class="restauratrice">Au Monde, l’Aage d’Or, Charles a retourné,</span></strong><strong><br>Charles l’honneur du Monde, </strong><strong><span class="vertus">est de la Vertu né</span>.</strong></em><sup class="fn-ref" tabindex="0">7<aside class="fn-text" role="note"><div class="fn-num">7</div><div class="fn-body">Discours de l&#x27;entree de tresillustre, trespuissant, treschrestien, et tresvictorieux Prince Charles de Valois neuvième de ce nom Roy de France en sa tres renommée et fameuse ville de Lyon…, Paris, M. Breuille, 1564, f. 33 et suiv.</div></aside></sup></div>
 </td>
 <td>
 <div class="extrait" id="extrait17">- À la Royne -Sonnet<br><em>Royne sans per, de graces anoblies,</em><br><em>France doit bien voz honeurs accueillir, </em><br><em><strong><span class="mere">D’enfans Royaux l’avez sceue embelir</span></strong>, </em><br><em>Dont aux efforts guerriers se voit munie.</em><br><em><strong><span class="vertus">Vous surpassez la Royne Zenobie</span></strong>, </em><br><em>Et son renom faictes ensevelir, </em><br><em>Dont vostre los onc ne pourra faillir,</em><br><em>Bien que soyez lassus au Ciel ravie.</em><br><em>Chacun desire en ce regne Gaulois </em><br><em>L’accroissement du tige des Valois, </em><br><em>Qu’un triple Lis des longs temps auctorise.</em><br><em>Vous avez l’heur, Royne, du Ciel haultain, </em><br><em>Et vostre nom aux siecles est certain</em><br><em><span class="vertus">D’avoir louange à <strong>vos vertus</strong> exquise</span>.</em></div>
@@ -108,8 +108,8 @@ Corrections et amélioration par Philippe Gambette du code obtenu
 <script>
 document.querySelectorAll("td").forEach(td=>{
    td.addEventListener("mouseenter",event=>{
-       document.querySelectorAll("td").forEach(td2=>{td2.style.width=window.innerWidth/20+"px"})
-       td.style.width=window.innerWidth/2+"px"
+       document.querySelectorAll("td").forEach(td2=>{td2.style.width=window.innerWidth/30+"px"})
+       td.style.width=window.innerWidth/1.6+"px"
    })
    td.addEventListener("mouseleave",event=>{
        document.querySelectorAll("td").forEach(td2=>{td2.style.width=""})
